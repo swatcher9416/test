@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS 初始化 */
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,table,tr,td,form,p,ul,li,ol,span,img,a,em,i,strong,b,input,select,option,textarea,label{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+body{ font-family:"宋体"; font-size:13px; background:#FFF;}
+a{ color:#4d4c4c; text-decoration:none;}
+a:hover{ color:#F00;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; clear:both; visibility:hidden; height:0; display:block;}
+/*头部导航*/
+#top{ width:1003px; height:auto; margin:0 auto; border-top:4px solid #7f7f7f;}
+.logo{ width:230px; height:84px; float:left; border-right:1px solid #c4c4c4;}
+.logo img{ display:block; width:188px; height:46px; margin-top:19px; margin-left:23px;}
+.nav{ width:772px; height:84px; float:left;}
+.navtop{width:auto; height:13px; margin-left:636px; margin-top:15px; color:#a3a2a2;}
+.navtop a{ color:#a3a2a2;}
+.navtop a:hover{color:#F00;}
+.navtop1{ display:block; width:61px; border-right:solid 1px #a3a2a2; float:left;}
+.navtop2{ display:block; width:63px; float:left; margin-left:11px;}
+.navbox img{ float:left; width:1px; height:41px;}
+.navbox{width:772px; height:41px; background:url(../images/nav_bg.jpg) no-repeat; margin-top:11px;}
+.navbox h3{ float:left; line-height:41px; margin-left:25px}
+.nav1{ display:block; width:96px; font-size:13px;}
+.nav2{ display:block; width:95px;font-size:13px;}
+.nav3{ display:block; width:90px;font-size:13px;}
+.nav4{ display:block;  width:89px;font-size:13px;}
+.nav5{ display:block;  width:99px;font-size:13px;}
+/*flash*/
+#flashpic{ width:1003px; height:auto; margin:0 auto;}
+/*主体*/
+#main{ width:1003px; height:auto; margin:1px auto 0; border-top:1px solid #dedfe4; border-bottom:7px solid #dedfe4; background:url(../images/shadow.png) no-repeat;}
+/*栏目导航*/
+.guide{ width:188px; height:auto;/* border-bottom: 1px solid #ccc9c9;*/ float:left;}
+.guidetit{ width:187px; height:26px; background:url(../images/guidelogo.png) no-repeat; margin-left:1px; margin-top:29px; font-size:13px;  line-height:22px;}
+.titchinese{ display:block; float:left;margin-left:26px;  color:#1952c6; font-size:13px;font-family:"微软雅黑"; font-weight:bold;}
+.titenglish{ display:block; float:left; margin-left:17px;  color:#9a9a9a;font-family:"微软雅黑"; font-weight:bold;}
+.guidetiao{ width:186px; height:24px; border:1px solid #ccc9c9; background:url(../images/tiao.jpg) no-repeat; text-align:center; line-height:24px; margin-bottom:3px;}
+.contectimg{ width:186px; height:72px; border:1px solid #ccc9c9;}
+.contectimg img{ display:block; margin:1px;}
+.contectword{ width:188px; height:201px;}
+.contectword span{ font-size:12px; display:block; line-height:26px;}
+/*公司简介*/
+.aboutus{ width:556px; height:auto; float:left;  margin-top:29px;}
+.aboutustit{ width:160px; height:26px; background:url(../images/guidelogo.png) no-repeat 0px -45px; float:left; }
+.aboutustit .titenglish{ width:65px; font-size:12px; line-height:22px;}
+.aboutyoutit{border-bottom:1px solid #c3c2c2; height:25px; width:396px; float:left; }
+.more{ margin-bottom:5px; margin-left:346px; }
+.more a{ color:#000000;  font-size:13px; font-family:"微软雅黑"; line-height:22px;}
+.more a:hover{ color:#F00;}
+.aboutuspic{ width: 137px;height:139px; margin-top:44px; float:left;}
+.aboutusword{ width:407px; float:left; line-height:22px; text-indent:2em;  margin-top:44px; margin-left:10px; font-size:12px;}
+/*产品简介*/
+.products{ width:556px; height:auto; float:left;  margin-top:19px;}
+.productstit{ width:160px; height:26px; background:url(../images/guidelogo.png) no-repeat 0px -45px; float:left; }
+.productstit .titenglish{ width:65px; font-size:12px; line-height:22px;}
+.productsyoutit{border-bottom:1px solid #c3c2c2; height:25px; width:396px; float:left;}
+.productsbigimg{overflow:hidden; width:540px;}
+.productssmallimg{ width:1000px; }
+.productsimg{ width:125px; height:125px; border:1px solid #d3d3d3; float:left; }
+.productsbox span{ display:block; margin-top:134px;}
+.productsbox{ width:127px;height:150px; text-align:center; margin-top:19px; margin-right:21px; float:left;}
+
+/*中间*/
+.mainmiddle{ width:556px;float:left;margin-left:37px;}
+/*行业资讯*/
+.news{ width:199px; float:left; margin-left:23px;margin-top:29px;}
+.newstit{ width:149px; height:26px; background:url(../images/guidelogo.png) no-repeat;  font-size:13px; line-height:22px; float: left;}
+.newsyoutit{ width:50px; float:left ; height:25px;border-bottom:1px solid #c3c2c2; }
+.newsyoutit .more{ margin-bottom:5px; margin-left:4px;}
+.newspic{ width:196px; height:196px;  border:1px solid #dbdada; margin-top:32px;}
+.newspic img{ margin:3px;}
+.newsword { margin-top:22px; }
+.newsword span{ display:block; font-size:12px; line-height:22px; font-family:"宋体"; float:left}
+.newsword i{ display:block; border:3px solid #777676; border-color: transparent transparent  transparent #777676 ; margin:8px 8px 5px; float:left;}
+/*版权*/
+#bottom{margin:0 auto; text-align:center;}
+#bottom span{ line-height:22px; color:#a4a2a2; margin-top:16px; display:block;}
+
+
+/*联系我们详细页面右边*/
+.contectright{ width:756px; float:left;  margin-left:37px; }
+.contectustit{ width:778px; height:56px; background:url(../images/contectus_bg.jpg) no-repeat;}
+.contectustit span{ display:block; margin-left:32px; line-height:70px;}
+.contectright h3{ font-size:14px; margin-top:16px;}
+.contectright_img{ border:1px solid #e1dddd; width:542px; height:255px;  margin-top:14px;}
+.contectright_img img{ margin:5px;}
+.contectusneirong{ margin-left:21px; }
+.contectusneirong_text{margin-bottom:37px;margin-top:12px; }
+.contectusneirong_text span{ line-height:26px; display:block; font-size:12px; }
+
+
+
+/*行业资讯详细页面*/
+.newsright{ width:756px; float:left;  margin-left:37px; }
+.newsbox{ width:348px; height:143px;border-bottom:1px dashed #d4d2d3; margin-left:22px; margin-top:14px;}
+
+.newsbox_img img{ display:block; border:1px solid #d4d2d3;}
+.newsbox_text{ float:left; width:221px; }
+.newsbox_text h3{ font-size:18px; font-family:"微软雅黑";margin-left:20px;}
+.newsbox_text span{ font-size:13px; display:block; margin-left:20px;  line-height:22px;}
+.newsbox_img { float:left;}
+.newsright_right{ float:left; }
+.content_page{ text-align:center;height:20px; margin-top:679px; margin-bottom:22px; }
+.content_page a{display:inline-block line-height:22px; padding:6px 13px; color:#000;font-weight:bold; border:1px solid #b6b5b5;}
+.content_page a:hover{ color:#FFF; background:#F00; }
+
+/*公司简介详细页面*/
+.introuduceright{ width:756px; float:left;  margin-left:37px; }
+.introuducetxt{width:720px; margin-top:30px; margin-left:22px; text-align:center;}
+.introuducetxt h3{ font-size:14px; margin:0 auto;}
+.introuducetxt span{ display:block; margin:12px  auto 18px;}
+.text{width:720px; margin-left:22px;text-indent:2em; }
+.introuducetxt p{ line-height:20px; font-size:12xp;  }
+.introuduceright .content_page{ text-align:center;height:20px; margin-top:30px; margin-bottom:22px; }
+
+/*列表*/
+.listright{ width:756px; float:left;  margin-left:37px; }
+.listsmall{ width:715px; height:34px; border-bottom:1px dashed #9e9c9c; text-align:left; line-height:34px; margin-left:20px; }
+.listsmall span{ display:block; float:right; color:#8e8d8d;}
+.listright .content_page{ text-align:center;height:20px; margin-top:20px; margin-bottom:22px; }
+
+
+
+
+
+
